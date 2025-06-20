@@ -15,7 +15,7 @@ app.use(compression());
 // Allow CORS policy
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://employees-pro.netlify.app/"],
+    origin: ["http://localhost:5173", "https://employees-pro.netlify.app"],
     credentials: true,
   })
 );
